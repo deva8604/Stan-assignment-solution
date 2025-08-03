@@ -1,0 +1,27 @@
+{
+  "name": "stan-chatbot",
+  "version": "1.0.0",
+  "description": "STAN Chatbot - AI-powered conversational assistant",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../chat-ui && npm install",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd chat-ui && npm start",
+    "dev": "concurrently \"npm run server-dev\" \"npm run client\"",
+    "server-dev": "cd server && npm run dev",
+    "build": "cd chat-ui && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "chatbot",
+    "ai",
+    "react",
+    "nodejs",
+    "express",
+    "gemini"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+} 
