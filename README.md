@@ -190,18 +190,3 @@ The system maintains conversation history for each user, allowing for context-aw
 - Automatic fallback responses
 - Network error recovery
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Support
-
-If you encounter any issues or have questions, please open an issue on the repository. 
