@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "echo \"No client to build\""
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -17,4 +18,4 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
-} 
+}
