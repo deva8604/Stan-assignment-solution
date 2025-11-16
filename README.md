@@ -25,14 +25,15 @@ stan/
 │   │   └── tone.js        # Tone detection service
 │   └── utils/             # Utility functions
 │       └── llm.js         # LLM API integration
-└── chat-ui/               # Frontend React application
-    ├── public/            # Static files
-    ├── src/               # React source code
-    │   ├── App.js         # Main React component
-    │   ├── App.css        # Component styles
-    │   ├── index.js       # React entry point
-    │   └── index.css      # Global styles
-    └── package.json       # Frontend dependencies
+└── FE/
+    ├──chatUi/             # Frontend React application
+        ├── public/            # Static files
+        ├── src/               # React source code
+        │   ├── App.js         # Main React component
+        │   ├── App.css        # Component styles
+        │   ├── index.js       # React entry point
+        │   └── index.css      # Global styles
+        └── package.json       # Frontend dependencies
 ```
 
 ## Prerequisites
